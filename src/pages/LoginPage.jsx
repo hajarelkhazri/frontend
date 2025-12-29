@@ -76,7 +76,7 @@ function LoginPage({ onLoginSuccess, onSwitchToRegister }) {
 
               <button
                 type="submit"
-                className="btn btn-warning"
+                className="btn btn"
                 disabled={loading}
               >
                 {loading ? 'Connexion…' : 'Se connecter'}
